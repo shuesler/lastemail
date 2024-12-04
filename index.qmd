@@ -1,0 +1,177 @@
+---
+title: "08.11.2023, 09:11"
+lightbox: true
+lang: de
+format:
+  html:
+    toc: false
+---
+
+Sehr geehrter Herr Prof. Diaz-Bone,
+
+Vielen Dank für Ihre Email. Bitte entschuldigen Sie meine lange Antwortzeit. Bedauerlicherweise überprüfe ich den Email-Account nur sehr sporadisch. Leider muss ich Sie erneut um eine Ausweitung der Bearbeitungszeit für die Masterarbeit bis zum 30. April 2024 bitten. Im Weiteren erlaube ich mir hier ein kleines Update zu geben:
+
+Wie Sie ja von den Kolloquiums-Sitzungen wissen, bin ich (schon fast) obsessiv danach bestrebt, das “Causal Data Science”-Framework (begründet von Judea Pearl, weitergeführt von Elias Bareinboim) der Survey Methodology- bzw. der Soziologie-Community näher zu bringen. Vor diesem Hintergrund freut es mich jeweils besonders, wenn ich sehe, dass sich Soziologen aus dem deutschsprachigen Raum mit demselben Thema beschäftigen. So kann ich von einem Paper namens  “Control variable selection in applied quantitative sociology: a critical review” von Prof. Ulrich Kohler (et al. 2023) der Universität Potsdam berichten. 
+
+Anhand diesem Paper möchte ich ein gewisses Dilemma illustrieren: Worum geht es darin? Die Autoren untersuchen, wie die Berücksichtigung von Kontrollvariablen in einem Regressionsmodell gerechtfertigt wird. Zu diesem Zweck analysieren sie alle Studien des “European Sociological Review” der Jahre 2016 und 2017, in welchen Regressionskoeffizienten interpretiert werden (Kohler et al. 2023, 3). Studien mit methodischem Untersuchungsinteresse oder solche, bei denen die reine Vorhersage im Mittelpunkt steht, fallen also nicht hier rein.
+
+Zur Überraschung von Forschenden, welche nicht mit dem “Causal Data Science”-Framework vertraut sind halten sie fest:
+
+> *“We show that despite the aim of the analysis, control variable selection must be primarily justified with assumptions about the causal relationships between the covariates, while justifications for the effects of each of the covariates on the outcome are of secondary importance”* (ebd., 1 f.).
+
+
+Und weiter:
+
+> *“In cases where authors do not want to study a causal effect, it is still important that
+the causal model underlying the association stands out”* (ebd., 5).
+
+Mit anderen Worten halten sie fest, dass Autoren in allen von ihnen analysierten Studien (unabhängig davon, ob kausale Effekte oder Korrelationen im Zentrum des Interesses stehen) daran gehalten sind, kausale Überlegungen anzustellen.
+
+Nach meiner Auffassung stellt dies einen Paradigmenwechsel dar. Diese Behauptung lässt sich weiter wie folgt untermauern: Immer mindestens die Hälfte der analysierten Studien (ebd., siehe Tabellen 1, 3 und 4) genügen nicht den drei Kriterien, die basierend auf Konzepten und Terminologie des “Causal Data Science”-Framework abgeleitet wurden (ebd., 2).
+
+Bei dem angesprochenen Paper (nachfolgend Kohler-Paper genannt) geht es lediglich um die Frage, wie der Einbezug von Kontrollvariablen in ein lineares Regressionsmodell gerechtfertigt bzw. begründet wird. Das “Causal Data Science”-Framework (in der Folge mit CSD-FW abgekürzt) adressiert jedoch ein sehr weites Spektrum von Problemen, welches bis zum Themenbereich des Reinforcement Learning reicht. Im Kontext der Soziologie und im Besonderen der Survey Methodology sind die Lösungsansätze von Interesse, welches das CSD-FW hinsichtlich Herausforderungen in der “Daten-Produktion” anbietet.
+
+![Bild 1: Challenges in der Daten-Produktion nach Bareinboim (Bareinboim 2022, Folie 4, mit eigenen Anmerkungen).](1bo.jpg){width=100%, group="my-gallery"}
+
+Bareinboim listet in Bild 1 auf, welche Herausforderungen in der Daten-Produktion seitens des CDS-FW formalisiert wurden. Die Herausforderungen habe ich in gelber Farbe vier Dimensionen zugeordnet: d1 bis d4. Die vier Dimensionen stehen für Charakteristika der Daten-Produktion. *population*: Was ist die intendierte Population, für welche die Daten gesammelt werden? *obs/exp*: Wurden die Daten unter einem experimentellen Regime gesammelt? *sampling*: Sind die “Units”, welche Eingang in die Daten gefunden haben, wirklich eine Zufallsauswahl? *measure*: Sind die Variablen, welche die theoretische Domäne abbilden sollen, wirklich alle gemessen worden?
+
+![Bild 2: Zusammenhang formalisierte Dimensionen im CDS-FW und monumentale Werke mit Bezug zu den Statistikwissenschaften, ausgewählt von Bareinboim (Bareinboim 2022, Synthese der Folien 6-9, mit eigenen Anmerkungen).](2bo.jpg){width=100%, group="my-gallery"}
+
+Bareinboim zeigt in Bild 2 nun wie das Werk von in der Geschichte  herausragenden Wissenschaftlern, das einen Bezug zu den Statistikwissenschaften aufweist, mit den vom CDS-FW formalisierten Dimensionen in Verbindung gebracht werden kann. Wie er im Konkreten diese Verbindung ausformuliert, interessiert an dieser Stelle nicht. Was ich hier hervorheben möchte ist, welch grosser Relevanzanspruch das CDS-FW für sich (mehr oder minder explizit ausgesprochen) proklamiert.
+
+Nun ist ein erstes Resümee angebracht: Ich habe anhand dem Kohler-Paper gezeigt, wie Wissenschaftler zum Schluss kommen können, dass mindestens die Hälfte der von ihnen analysierten Studien des “European Sociological Review” nicht den vom CDS-FW abgeleiteten Bewertungskriterien genügen. Im Weiteren habe ich auf den Relevanzanspruch hingewiesen, der das CDS-FW (mehr oder minder explizit ausgesprochen) für sich proklamiert.
+
+Nun ist die entscheidende Frage, was es mit dem Dilemma auf sich hat, welches ich mit Bezugnahme auf das Kohler-Paper illustrieren wollte?
+
+
+
+![Bild 3: Schematische Illustration des Data-Fusion-Prozesses (Hünermund & Bareinboim 2023, 3). ](hünermund_3_B.png){width=100%, group="my-gallery"}
+
+Um dies erläutern zu können, muss ich kurz ein paar Worte über das technische Funktionieren des CDS-FW verlieren (siehe dazu Bild 3): Um ein Problem mit dem CDS-FW zu lösen, gilt es zu Beginn drei Inputs zu definieren: 1. *Query*: Hier definiert man die Entität die man wissen möchte. Beispielsweise kann dies eine von Selektions-Bias “befreite” konditionale Wahrscheinlichkeitsverteilung P(Y|X) sein. 2. *Model*: Hier formuliert man die Annahmen über den datengenerierenden Prozess. 3. *Available Data*: Hier definiert man die Datenverteilungen, welche bereits zur Verfügung stehen. Was ist nun der Output? Mit Bleistift und Papier (via dem sogenannten Do-Calculus) kann man nun die interessierende Entität ableiten, welche dann als “Endprodukt” und als eine Funktion der bereits zur Verfügung stehenden Datenverteilungen ausgegeben wird. Selbstverständlich existieren auch Softwarepakete, welche diesen Vorgang automatisiert vornehmen. 
+
+Zum numerischen Resultat fehlt jedoch noch ein wichtiger Schritt: Die statistische Schätzung (siehe Bild 4). 
+
+
+![Bild 4: “Causal Inference Engine” (Pearl & Mackenzie  2018, 12).](bow_12_B.png){width=100%, group="my-gallery"}
+
+Dies ist der Vorgang, welcher den “Estimand” (Funktion der bereits zur Verfügung stehenden Datenverteilungen) zum “Estimate” (numerisches Resultat) transformiert.
+
+In diesem letzten Schritt sehe ich das CDS-FW im Gegensatz zu den übrigen Konzepten des Frameworks im Moment noch als “unterentwickelt”. Guido W. Imbens (dessen Framework immer wieder von Pearl kritisiert wird) hält 2020 in einer Einschätzung der Relevanz des CDS-FW für die empirische Praxis in der Ökonomie Folgendes fest:
+
+> *“The focus on toy models and the corresponding lack of engagement with estimation and inference questions are in sharp contrast to the econometrics literature where the three steps, (i) the development of the causal models that preceeds the identification question, (ii) the study of identification questions, and (iii) estimation and inference methods that follow once the identification questions have been resolved, typically go hand in hand”* (Imbens 2020, 1134).
+
+Das Dilemma besteht nun darin, dass quasi der letzte Schritt (statistische Schätzung) für die Soziologie und die Survey Methodology unentbehrlich ist. Auf der einen Seite stellt das CDS-FW Formalisierungen für alle relevanten Dimensionen der Daten-Produktion bereit. Auf der anderen Seite  fehlt dem Framework die “letzte Meile” zur empirischen Anwendbarkeit. Hier gibt es jedoch eine Ausnahme: Das Framework liefert alle Instrumente, die man braucht, um zum numerischen Resultat zu kommen, wenn es die Aufgabe vor der Brust erlaubt, als statistische Technik die lineare Regression zu verwenden. Somit wäre auch erklärt, inwiefern es Kohler et al. (2023) möglich war, das CDS-FW für ihre Analyse nützlich zu machen. Zum Thema CDS-FW und lineare Regression, siehe: Cinelli et al. (2020) und Pearl (2013 und 2017).
+
+Hier kommt ein Aspekt erschwerend dazu: Was meine Fähigkeiten angeht, bin ich bei mathemathischen und statistischen Themen sehr schnell überfordert. So wäre ich auch gar nicht in der Lage im Detail zu beurteilen, inwiefern und in welcher Qualität die Lücke der “letzten Meile” geschlossen wurde. Beispielsweise wenn es darum geht, graphtheoretische Algorithmen anzuwenden oder diese in Software zu implementieren, da komme ich noch mit. Danach ist dann bald eine Grenze erreicht.
+
+Beispielsweise investierte ich eine Unmenge an Zeit, um ein mit dem CDS-FW verwandter (bzw. darauf basierender) Ansatz zu verstehen, der auch die statistische Schätzung integriert. Jedoch war ich da dann schnell überfordert. Es handelte sich um van der Laan & Rose (2011).
+
+Jüngst beschäftigte ich mich mit der Herangehensweise an Kausalität, wie sie von Personen rund um Bernhard Schölkopf vom Max-Planck-Institut in Tübingen gehandhabt wird. Von diesem Personenkreis ging auch eine Monographie zum Thema Kausalität hervor: Peters et al. (2017). Auch beim Studium dieser Monografie stiess ich bald an meine Verständnisgrenzen.
+
+Als nächstes gilt es festzuhalten, warum ich dennoch davon überzeugt bin, dass das CDS-FW für mein Thema, der Optimierung des Telefonlabors, einen sehr wichtigen Beitrag leisten kann. Mein Thema fällt in den Forschungsbereich des “Selection-Bias”. Dieser wurde vom CDS-FW bereits formalisiert (siehe Bild 2). Bei einer Optimierung werden immer Aufwand und Ertrag ins Verhältnis gesetzt. Über den Ertrag gibt es innerhalb meiner Arbeit sehr viel zu sagen, ist doch damit auch die Diskussion über Surveyqualität damit verbunden. Hier interessiert jedoch der Aufwand: Unstrittig ist, dass dieser in monetären Einheiten gemessen wird. Das CDS-FW lässt einem jedoch ein sehr relevantes Austauschverhältnis sichtbar machen: **Monetäre Einheiten und Annahmen, bzw. Wissen über datengenerierende Prozesse stehen in einem Austauschverhältnis**. Warum gerade das CDS-FW dies sichtbar machen lässt, dürfte nicht schwer zu erkennen sein: Nehmen doch Annahmen, bzw. Wissen über datengenerierende Prozesse, welche man in Form von Dags (Directed acyclic graphs, siehe dazu Bild 3) formuliert, einen prominenten Stellenwert im Framework ein.
+
+Um dies zu illustrieren sei gesagt, dass man mit dem CDS-FW im Extremfall ganz auf experimentelle Regimes in der Realität verzichten kann, vorausgesetzt man ist unter Berücksichtigung des “Endzwecks” eines Forschungsprojekts “bereit”, die notwendigen Annahmen über den datengenerierenden Prozess zu treffen. Es gibt bereits Studien, welche die numerische Abweichung der Substitution eines experimentellen Regimes durch das CDS-FW untersuchen (Correa 2022, Minute 58.5 bis 60.5). Klar dürfte sein, dass die “Schliessung der letzten Meile” die Machbarkeit dieses Unterfangen positiv beeinflussen wird.
+
+Gerade habe ich beschrieben, inwiefern es möglich ist, monetäre Einheiten durch Annahmen, bzw. Wissen über datengenerierende Prozesse einzutauschen. Betrachtungen in die entgegengesetzte Richtung sind ebenso relevant: Bekanntlich sind experimentelle Regimes im Feld enorm teuer. Die Survey Methodology hat es meiner Meinung nach verpasst, eine Form des Gegenwerts sichtbar zu machen: Die Realisierung eines möglichst zufallsbasierten Samples von befragten Personen, macht gewisse Annahmen oder Erkenntnisse über den datengenerierenden Prozess obsolet.
+
+In den Kolloquien kam ich immer wieder auf den von Vogel (2019, Kapitel 5.5, 6.2 und 8.8.1) illustrierten “Adressenstreit” zu sprechen. In den Zitaten des Universitären Studienleiters fiel auf, inwiefern er damit rang, das unterschiedliche Funktionieren der “Marktforschung” und der universitären Surveyforschung mit Worten zu erklären. Dies zeigt mir die Wichtigkeit, Ertrag und Aufwand von Survey-Projekten  tatsächlich aus einer neuen Perspektive zu analysieren.
+
+Zusammenfassend lässt sich sagen, dass ich vom gewinnbringenden Potential des CDS-FW für die Soziologie und Survey Methodology überzeugt bin und im Rahmen meiner Fähigkeiten versuche, einen gewinnbringenden Aspekt davon für mein Masterarbeitsthema nutzbar zu machen.
+
+Unter Berücksichtigung dieser Gesichtspunkte würde ich die Implementierung einer Reihe von Algorithmen aus dem CDS-FW in die Programmiersprache R als am gewinnbringendsten beurteilen. Anstoss dieses Unterfangens war die Entdeckung einer Dissertation: 
+
+> *Correa, Juan D. 2021. A Computational Perspective of Causal Inference and the Data Fusion Problem. Doctoral Thesis. Columbia University. (Advisor: Elias Bareinboim)*
+
+An dieser ist neu, dass eine sehr grosse Bandbreite von Aufgaben die das CDS-FW im Stande zu lösen ist, in kohärente Algorithmen formalisiert. Was heisst kohärent? Die Verfahrensweisen der Algorithmen für die verschiedenen Aufgaben sind alle identisch aufgebaut. Sie unterscheiden sich lediglich durch die Verwendung von verschiedenen “Operatoren” (Correa 2021, 142). Nach jetzigem Kenntnisstand ist es auch so, dass die Implementierung ein vertieftes Verständnis fördern würde, wie die einzelnen Aufgaben die vom Framework adressiert werden, miteinander zusammenhängen. Wenn man eine Sammlung Algorithmen hat, die das Gleiche bewerkstelligen, ist es dennoch so, dass sich diese in ihrer Vorgehensweise hinsichtlich “Nachvollziehbarkeit” für den Menschen unterscheiden können. Tikka et al. (2017, 9) haben einen Algorithmus von Shpitser & Pearl (2006) implementiert. In einem kleinen Software-Projekt (https://shuesler.github.io/idalgo/) war ich bestrebt, die Vorgehensweise des Algorithmus mittels interaktiver Grafik zu visualisieren. Wie sich herausstellte half diese Visualisierung nicht gross dem Verständnis, weil die Bausteine des Algorithmus in Form von graphtheoretischen Kriterien zu komplex waren, um diese zu verstehen. Die Algorithmen in Correa (2021) versprechen da eine höhere Nachvollziehbarkeit, da diese alle mittels einem “graphischen Mapping” zwischen Queries und Datenverteilungen-Inputs funktionieren.
+
+Die Verbindung zu meinem Masterarbeitsthema ergibt sich konkret dadurch, dass ich der Analyse und Implementierung der Algorithmen rund um das Thema des Selection-Bias (Correa 2021, Kapitel 6) die höchste Priorität und Anforderung bezüglich Klarheit zuteilen würde.
+
+Wie würde sich die Software-Implementierung von anderen Software-Paketen unterscheiden? (Beispielsweise: Bareinboim & Pearl 2016, Tikka et al. 2017, Tikka et al. 2021) Da die Implementierung im Kontext der Survey Methodology entsteht, wäre es angezeigt, Queries ohne “do-Expressions” (das ist die Konstellation, wenn sich das Erkenntnisinteresse auf Korrelationen beschränkt) eine prominentere Bedeutung einzuräumen. Bei der Software von Bareinboim (https://causalfusion.net/, Bareinboim & Pearl 2016) werden diese Queries gar nicht unterstützt. Bei Tikka et al. (2021) scheint dies der Fall zu sein, doch bis zu welchem Grad, wird aus der Dokumentation nicht ersichtlich. Erschwerend kommt beim Softwarepaket von Tikka et al. (2021) hinzu, dass die Algorithmen in C++ implementiert sind. Forschenden aus dem Umfeld der Survey Methodology dürfte diese Programmiersprache schwieriger zugänglich sein als R. Dies bedeutet, dass die genaue Vorgehensweise der Software Forschenden aus der Survey Methodology verborgen bleibt. Des Weiteren hatte das Projekt auch noch keinen Zugriff auf die vereinfachten und kohärenten Algorithmen aus Correa (2021).
+
+Es gilt festzuhalten, dass ich mich bis jetzt nur mit der Machbarkeit der Implementierung auseinandergesetzt habe. Aktuell ist noch nichts implementiert. Auch sei nochmals darauf hingewiesen, dass mit der Implementierung kein praktisches Problem gelöst würde. Output der Algorithmen sind “nicht-parametrische” Ausdrücke als Funktionen der Input-Verteilungen. Praktische Relevanz ergäbe sich daraus erst, wenn basierend auf den Ausdrücken statistische Schätzstrategien mit wünschenswerten Eigenschaften entwickelt würden.
+
+Klarzustellen gilt es, dass das übergeordnete Ziel meiner Masterarbeit nicht lediglich darin besteht, das CDS-FW bei Soziologen oder Personen aus der Survey Methodology bekannt zu machen. Vielmehr besteht es darin, dahingehend Anreize zu schaffen, dass der angesprochene Personenkreis ihre Expertise zur Erforschung des Frameworks hineinsteckt um gemeinsam herausfinden zu können, ob das Framework für die (theoretische) Survey Methodology den Status eines neuen Paradigmas erreichen kann.
+
+Darf ich Sie fragen, was Sie von dem Vorhaben der Implementierung halten?
+
+
+Vielen Dank und freundliche Grüsse
+
+Silvan Hüsler
+
+
+---
+
+
+**Bareinboim, Elias 2022.** \"Causal Data Science: A general framework
+for causal inference and fusion (through computational lenses),\" which
+was part of the First International Workshop on Interactive Causal
+Learning on June 2nd. Online:
+https://youtu.be/6lWB_JmWY8g?si=gCzuqdJXYAHi9Y56 \[07.09.2023\].
+
+**Bareinboim, E. & Pearl, J. 2016.** Causal Inference and The
+Data-Fusion Problem, in Shiffrin, R. M. (Hg.): *Proceedings of the
+National Academy of Sciences*: National Academy of Sciences, 7345--7352.
+
+**Cinelli, Carlos, Forney, Andrew & Pearl, Judea 2022.** A Crash Course
+in Good and Bad Controls. *Sociological Methods & Research*,
+00491241221099552. Online im Internet: URL:
+https://doi.org/10.1177/00491241221099552.
+
+**Correa, Juan D. 2022.** \"Generalization of Causal and Statistical
+Quantities under Transportability and Selection Bias\". Online:
+
+https://youtu.be/TYYf7809reI?si=KesKhfbVe_vX97KW \[07.09.2023\].
+
+**Correa, Juan D. 2021.** A Computational Perspective of Causal
+Inference and the Data Fusion Problem*.* Doctoral Thesis. Columbia
+University.
+
+**Hünermund, Paul & Bareinboim, Elias 2023.** Causal inference and data
+fusion in econometrics. *The Econometrics Journal* 112(4)), 3.
+
+**Imbens, Guido W. 2020.** Potential Outcome and Directed Acyclic Graph
+Approaches to Causality: Relevance for Empirical Practice in Economics.
+*Journal of Economic Literature* 58(4), 1129--1179.
+
+**Kohler, Ulrich, Class, Fabian & Sawert, Tim 2023.** Control variable
+selection in applied quantitative sociology: A critical review.
+*European Sociological Review* 51, S139.
+
+**Pearl, Judea & Mackenzie, Dana 2018***. The book of why: The new
+science of cause and effect.* First trade paperback edition. New York:
+Basic Books.
+
+**Pearl, Judea 2017.** A Linear "Microscope" for Interventions and
+Counterfactuals. *Journal of Causal Inference* 5(1), 1-15.
+
+**Pearl, Judea 2013.** Linear Models: A Useful "Microscope" for Causal
+Analysis. *Journal of Causal Inference* 1(1), 155--170.
+
+**Peters, Jonas, Janzing, Dominik & Schölkopf, Bernhard 2017*.***
+*Elements of causal inference: Foundations and learning algorithms*.
+Cambridge, Massachusetts: The MIT Press. (Adaptive computation and
+machine learning).
+
+**Shpitser, Ilya & Pearl, Judea 2006.** \"Identification of Joint
+Interventional Distributions in Recursive Semi-Markovian Causal Models\"
+In: *Proceedings of the Twenty-First National Conference on Artificial
+Intelligence* AAAI Press, Menlo Park, CA, 1219-1226.
+
+**Tikka, Santtu, Hyttinen, Antti & Karvanen, Juha 2021.** Causal Effect
+Identification from Multiple Incomplete Data Sources: A General
+Search-Based Approach. *J. Stat. Soft.* 99(5), 1--40. Online im
+Internet: URL:
+https://www.jstatsoft.org/index.php/jss/article/view/v099i05.
+
+**Tikka, Santtu & Karvanen, Juha 2017.** Identifying Causal Effects with
+the R Package causaleffect. *J. Stat. Soft.* 76(12), 1--30.
+
+**van der Laan, Mark J. & Rose, Sherri 2011*. ****Targeted Learning:
+Causal Inference for Observational and Experimental Data*. New York, NY:
+Springer New York. (Springer Series in Statistics).
+
+**Vogel, Raphael 2019*.*** *Survey-Welten*. Wiesbaden: Springer
+Fachmedien Wiesbaden.
+
+

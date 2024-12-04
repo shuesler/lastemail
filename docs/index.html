@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>08.11.2023, 09:11</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-d4be639c637f3db3c684c66cefad7e0c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
+  }
+}</script>
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">08.11.2023, 09:11</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Sehr geehrter Herr Prof.&nbsp;Diaz-Bone,</p>
+<p>Vielen Dank für Ihre Email. Bitte entschuldigen Sie meine lange Antwortzeit. Bedauerlicherweise überprüfe ich den Email-Account nur sehr sporadisch. Leider muss ich Sie erneut um eine Ausweitung der Bearbeitungszeit für die Masterarbeit bis zum 30. April 2024 bitten. Im Weiteren erlaube ich mir hier ein kleines Update zu geben:</p>
+<p>Wie Sie ja von den Kolloquiums-Sitzungen wissen, bin ich (schon fast) obsessiv danach bestrebt, das “Causal Data Science”-Framework (begründet von Judea Pearl, weitergeführt von Elias Bareinboim) der Survey Methodology- bzw. der Soziologie-Community näher zu bringen. Vor diesem Hintergrund freut es mich jeweils besonders, wenn ich sehe, dass sich Soziologen aus dem deutschsprachigen Raum mit demselben Thema beschäftigen. So kann ich von einem Paper namens “Control variable selection in applied quantitative sociology: a critical review” von Prof.&nbsp;Ulrich Kohler (et al.&nbsp;2023) der Universität Potsdam berichten.</p>
+<p>Anhand diesem Paper möchte ich ein gewisses Dilemma illustrieren: Worum geht es darin? Die Autoren untersuchen, wie die Berücksichtigung von Kontrollvariablen in einem Regressionsmodell gerechtfertigt wird. Zu diesem Zweck analysieren sie alle Studien des “European Sociological Review” der Jahre 2016 und 2017, in welchen Regressionskoeffizienten interpretiert werden (Kohler et al.&nbsp;2023, 3). Studien mit methodischem Untersuchungsinteresse oder solche, bei denen die reine Vorhersage im Mittelpunkt steht, fallen also nicht hier rein.</p>
+<p>Zur Überraschung von Forschenden, welche nicht mit dem “Causal Data Science”-Framework vertraut sind halten sie fest:</p>
+<blockquote class="blockquote">
+<p><em>“We show that despite the aim of the analysis, control variable selection must be primarily justified with assumptions about the causal relationships between the covariates, while justifications for the effects of each of the covariates on the outcome are of secondary importance”</em> (ebd., 1 f.).</p>
+</blockquote>
+<p>Und weiter:</p>
+<blockquote class="blockquote">
+<p><em>“In cases where authors do not want to study a causal effect, it is still important that the causal model underlying the association stands out”</em> (ebd., 5).</p>
+</blockquote>
+<p>Mit anderen Worten halten sie fest, dass Autoren in allen von ihnen analysierten Studien (unabhängig davon, ob kausale Effekte oder Korrelationen im Zentrum des Interesses stehen) daran gehalten sind, kausale Überlegungen anzustellen.</p>
+<p>Nach meiner Auffassung stellt dies einen Paradigmenwechsel dar. Diese Behauptung lässt sich weiter wie folgt untermauern: Immer mindestens die Hälfte der analysierten Studien (ebd., siehe Tabellen 1, 3 und 4) genügen nicht den drei Kriterien, die basierend auf Konzepten und Terminologie des “Causal Data Science”-Framework abgeleitet wurden (ebd., 2).</p>
+<p>Bei dem angesprochenen Paper (nachfolgend Kohler-Paper genannt) geht es lediglich um die Frage, wie der Einbezug von Kontrollvariablen in ein lineares Regressionsmodell gerechtfertigt bzw. begründet wird. Das “Causal Data Science”-Framework (in der Folge mit CSD-FW abgekürzt) adressiert jedoch ein sehr weites Spektrum von Problemen, welches bis zum Themenbereich des Reinforcement Learning reicht. Im Kontext der Soziologie und im Besonderen der Survey Methodology sind die Lösungsansätze von Interesse, welches das CSD-FW hinsichtlich Herausforderungen in der “Daten-Produktion” anbietet.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="1bo.jpg" class="lightbox" data-gallery="my-gallery" title="Bild 1: Challenges in der Daten-Produktion nach Bareinboim (Bareinboim 2022, Folie 4, mit eigenen Anmerkungen)."><img src="1bo.jpg" class="img-fluid figure-img" alt="Bild 1: Challenges in der Daten-Produktion nach Bareinboim (Bareinboim 2022, Folie 4, mit eigenen Anmerkungen)."></a></p>
+<figcaption>Bild 1: Challenges in der Daten-Produktion nach Bareinboim (Bareinboim 2022, Folie 4, mit eigenen Anmerkungen).</figcaption>
+</figure>
+</div>
+<p>Bareinboim listet in Bild 1 auf, welche Herausforderungen in der Daten-Produktion seitens des CDS-FW formalisiert wurden. Die Herausforderungen habe ich in gelber Farbe vier Dimensionen zugeordnet: d1 bis d4. Die vier Dimensionen stehen für Charakteristika der Daten-Produktion. <em>population</em>: Was ist die intendierte Population, für welche die Daten gesammelt werden? <em>obs/exp</em>: Wurden die Daten unter einem experimentellen Regime gesammelt? <em>sampling</em>: Sind die “Units”, welche Eingang in die Daten gefunden haben, wirklich eine Zufallsauswahl? <em>measure</em>: Sind die Variablen, welche die theoretische Domäne abbilden sollen, wirklich alle gemessen worden?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="2bo.jpg" class="lightbox" data-gallery="my-gallery" title="Bild 2: Zusammenhang formalisierte Dimensionen im CDS-FW und monumentale Werke mit Bezug zu den Statistikwissenschaften, ausgewählt von Bareinboim (Bareinboim 2022, Synthese der Folien 6-9, mit eigenen Anmerkungen)."><img src="2bo.jpg" class="img-fluid figure-img" alt="Bild 2: Zusammenhang formalisierte Dimensionen im CDS-FW und monumentale Werke mit Bezug zu den Statistikwissenschaften, ausgewählt von Bareinboim (Bareinboim 2022, Synthese der Folien 6-9, mit eigenen Anmerkungen)."></a></p>
+<figcaption>Bild 2: Zusammenhang formalisierte Dimensionen im CDS-FW und monumentale Werke mit Bezug zu den Statistikwissenschaften, ausgewählt von Bareinboim (Bareinboim 2022, Synthese der Folien 6-9, mit eigenen Anmerkungen).</figcaption>
+</figure>
+</div>
+<p>Bareinboim zeigt in Bild 2 nun wie das Werk von in der Geschichte herausragenden Wissenschaftlern, das einen Bezug zu den Statistikwissenschaften aufweist, mit den vom CDS-FW formalisierten Dimensionen in Verbindung gebracht werden kann. Wie er im Konkreten diese Verbindung ausformuliert, interessiert an dieser Stelle nicht. Was ich hier hervorheben möchte ist, welch grosser Relevanzanspruch das CDS-FW für sich (mehr oder minder explizit ausgesprochen) proklamiert.</p>
+<p>Nun ist ein erstes Resümee angebracht: Ich habe anhand dem Kohler-Paper gezeigt, wie Wissenschaftler zum Schluss kommen können, dass mindestens die Hälfte der von ihnen analysierten Studien des “European Sociological Review” nicht den vom CDS-FW abgeleiteten Bewertungskriterien genügen. Im Weiteren habe ich auf den Relevanzanspruch hingewiesen, der das CDS-FW (mehr oder minder explizit ausgesprochen) für sich proklamiert.</p>
+<p>Nun ist die entscheidende Frage, was es mit dem Dilemma auf sich hat, welches ich mit Bezugnahme auf das Kohler-Paper illustrieren wollte?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="hünermund_3_B.png" class="lightbox" data-gallery="my-gallery" title="Bild 3: Schematische Illustration des Data-Fusion-Prozesses (Hünermund &amp; Bareinboim 2023, 3)."><img src="hünermund_3_B.png" class="img-fluid figure-img" alt="Bild 3: Schematische Illustration des Data-Fusion-Prozesses (Hünermund &amp; Bareinboim 2023, 3)."></a></p>
+<figcaption>Bild 3: Schematische Illustration des Data-Fusion-Prozesses (Hünermund &amp; Bareinboim 2023, 3).</figcaption>
+</figure>
+</div>
+<p>Um dies erläutern zu können, muss ich kurz ein paar Worte über das technische Funktionieren des CDS-FW verlieren (siehe dazu Bild 3): Um ein Problem mit dem CDS-FW zu lösen, gilt es zu Beginn drei Inputs zu definieren: 1. <em>Query</em>: Hier definiert man die Entität die man wissen möchte. Beispielsweise kann dies eine von Selektions-Bias “befreite” konditionale Wahrscheinlichkeitsverteilung P(Y|X) sein. 2. <em>Model</em>: Hier formuliert man die Annahmen über den datengenerierenden Prozess. 3. <em>Available Data</em>: Hier definiert man die Datenverteilungen, welche bereits zur Verfügung stehen. Was ist nun der Output? Mit Bleistift und Papier (via dem sogenannten Do-Calculus) kann man nun die interessierende Entität ableiten, welche dann als “Endprodukt” und als eine Funktion der bereits zur Verfügung stehenden Datenverteilungen ausgegeben wird. Selbstverständlich existieren auch Softwarepakete, welche diesen Vorgang automatisiert vornehmen.</p>
+<p>Zum numerischen Resultat fehlt jedoch noch ein wichtiger Schritt: Die statistische Schätzung (siehe Bild 4).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="bow_12_B.png" class="lightbox" data-gallery="my-gallery" title="Bild 4: “Causal Inference Engine” (Pearl &amp; Mackenzie 2018, 12)."><img src="bow_12_B.png" class="img-fluid figure-img" alt="Bild 4: “Causal Inference Engine” (Pearl &amp; Mackenzie 2018, 12)."></a></p>
+<figcaption>Bild 4: “Causal Inference Engine” (Pearl &amp; Mackenzie 2018, 12).</figcaption>
+</figure>
+</div>
+<p>Dies ist der Vorgang, welcher den “Estimand” (Funktion der bereits zur Verfügung stehenden Datenverteilungen) zum “Estimate” (numerisches Resultat) transformiert.</p>
+<p>In diesem letzten Schritt sehe ich das CDS-FW im Gegensatz zu den übrigen Konzepten des Frameworks im Moment noch als “unterentwickelt”. Guido W. Imbens (dessen Framework immer wieder von Pearl kritisiert wird) hält 2020 in einer Einschätzung der Relevanz des CDS-FW für die empirische Praxis in der Ökonomie Folgendes fest:</p>
+<blockquote class="blockquote">
+<p><em>“The focus on toy models and the corresponding lack of engagement with estimation and inference questions are in sharp contrast to the econometrics literature where the three steps, (i) the development of the causal models that preceeds the identification question, (ii) the study of identification questions, and (iii) estimation and inference methods that follow once the identification questions have been resolved, typically go hand in hand”</em> (Imbens 2020, 1134).</p>
+</blockquote>
+<p>Das Dilemma besteht nun darin, dass quasi der letzte Schritt (statistische Schätzung) für die Soziologie und die Survey Methodology unentbehrlich ist. Auf der einen Seite stellt das CDS-FW Formalisierungen für alle relevanten Dimensionen der Daten-Produktion bereit. Auf der anderen Seite fehlt dem Framework die “letzte Meile” zur empirischen Anwendbarkeit. Hier gibt es jedoch eine Ausnahme: Das Framework liefert alle Instrumente, die man braucht, um zum numerischen Resultat zu kommen, wenn es die Aufgabe vor der Brust erlaubt, als statistische Technik die lineare Regression zu verwenden. Somit wäre auch erklärt, inwiefern es Kohler et al.&nbsp;(2023) möglich war, das CDS-FW für ihre Analyse nützlich zu machen. Zum Thema CDS-FW und lineare Regression, siehe: Cinelli et al.&nbsp;(2020) und Pearl (2013 und 2017).</p>
+<p>Hier kommt ein Aspekt erschwerend dazu: Was meine Fähigkeiten angeht, bin ich bei mathemathischen und statistischen Themen sehr schnell überfordert. So wäre ich auch gar nicht in der Lage im Detail zu beurteilen, inwiefern und in welcher Qualität die Lücke der “letzten Meile” geschlossen wurde. Beispielsweise wenn es darum geht, graphtheoretische Algorithmen anzuwenden oder diese in Software zu implementieren, da komme ich noch mit. Danach ist dann bald eine Grenze erreicht.</p>
+<p>Beispielsweise investierte ich eine Unmenge an Zeit, um ein mit dem CDS-FW verwandter (bzw. darauf basierender) Ansatz zu verstehen, der auch die statistische Schätzung integriert. Jedoch war ich da dann schnell überfordert. Es handelte sich um van der Laan &amp; Rose (2011).</p>
+<p>Jüngst beschäftigte ich mich mit der Herangehensweise an Kausalität, wie sie von Personen rund um Bernhard Schölkopf vom Max-Planck-Institut in Tübingen gehandhabt wird. Von diesem Personenkreis ging auch eine Monographie zum Thema Kausalität hervor: Peters et al.&nbsp;(2017). Auch beim Studium dieser Monografie stiess ich bald an meine Verständnisgrenzen.</p>
+<p>Als nächstes gilt es festzuhalten, warum ich dennoch davon überzeugt bin, dass das CDS-FW für mein Thema, der Optimierung des Telefonlabors, einen sehr wichtigen Beitrag leisten kann. Mein Thema fällt in den Forschungsbereich des “Selection-Bias”. Dieser wurde vom CDS-FW bereits formalisiert (siehe Bild 2). Bei einer Optimierung werden immer Aufwand und Ertrag ins Verhältnis gesetzt. Über den Ertrag gibt es innerhalb meiner Arbeit sehr viel zu sagen, ist doch damit auch die Diskussion über Surveyqualität damit verbunden. Hier interessiert jedoch der Aufwand: Unstrittig ist, dass dieser in monetären Einheiten gemessen wird. Das CDS-FW lässt einem jedoch ein sehr relevantes Austauschverhältnis sichtbar machen: <strong>Monetäre Einheiten und Annahmen, bzw. Wissen über datengenerierende Prozesse stehen in einem Austauschverhältnis</strong>. Warum gerade das CDS-FW dies sichtbar machen lässt, dürfte nicht schwer zu erkennen sein: Nehmen doch Annahmen, bzw. Wissen über datengenerierende Prozesse, welche man in Form von Dags (Directed acyclic graphs, siehe dazu Bild 3) formuliert, einen prominenten Stellenwert im Framework ein.</p>
+<p>Um dies zu illustrieren sei gesagt, dass man mit dem CDS-FW im Extremfall ganz auf experimentelle Regimes in der Realität verzichten kann, vorausgesetzt man ist unter Berücksichtigung des “Endzwecks” eines Forschungsprojekts “bereit”, die notwendigen Annahmen über den datengenerierenden Prozess zu treffen. Es gibt bereits Studien, welche die numerische Abweichung der Substitution eines experimentellen Regimes durch das CDS-FW untersuchen (Correa 2022, Minute 58.5 bis 60.5). Klar dürfte sein, dass die “Schliessung der letzten Meile” die Machbarkeit dieses Unterfangen positiv beeinflussen wird.</p>
+<p>Gerade habe ich beschrieben, inwiefern es möglich ist, monetäre Einheiten durch Annahmen, bzw. Wissen über datengenerierende Prozesse einzutauschen. Betrachtungen in die entgegengesetzte Richtung sind ebenso relevant: Bekanntlich sind experimentelle Regimes im Feld enorm teuer. Die Survey Methodology hat es meiner Meinung nach verpasst, eine Form des Gegenwerts sichtbar zu machen: Die Realisierung eines möglichst zufallsbasierten Samples von befragten Personen, macht gewisse Annahmen oder Erkenntnisse über den datengenerierenden Prozess obsolet.</p>
+<p>In den Kolloquien kam ich immer wieder auf den von Vogel (2019, Kapitel 5.5, 6.2 und 8.8.1) illustrierten “Adressenstreit” zu sprechen. In den Zitaten des Universitären Studienleiters fiel auf, inwiefern er damit rang, das unterschiedliche Funktionieren der “Marktforschung” und der universitären Surveyforschung mit Worten zu erklären. Dies zeigt mir die Wichtigkeit, Ertrag und Aufwand von Survey-Projekten tatsächlich aus einer neuen Perspektive zu analysieren.</p>
+<p>Zusammenfassend lässt sich sagen, dass ich vom gewinnbringenden Potential des CDS-FW für die Soziologie und Survey Methodology überzeugt bin und im Rahmen meiner Fähigkeiten versuche, einen gewinnbringenden Aspekt davon für mein Masterarbeitsthema nutzbar zu machen.</p>
+<p>Unter Berücksichtigung dieser Gesichtspunkte würde ich die Implementierung einer Reihe von Algorithmen aus dem CDS-FW in die Programmiersprache R als am gewinnbringendsten beurteilen. Anstoss dieses Unterfangens war die Entdeckung einer Dissertation:</p>
+<blockquote class="blockquote">
+<p><em>Correa, Juan D. 2021. A Computational Perspective of Causal Inference and the Data Fusion Problem. Doctoral Thesis. Columbia University. (Advisor: Elias Bareinboim)</em></p>
+</blockquote>
+<p>An dieser ist neu, dass eine sehr grosse Bandbreite von Aufgaben die das CDS-FW im Stande zu lösen ist, in kohärente Algorithmen formalisiert. Was heisst kohärent? Die Verfahrensweisen der Algorithmen für die verschiedenen Aufgaben sind alle identisch aufgebaut. Sie unterscheiden sich lediglich durch die Verwendung von verschiedenen “Operatoren” (Correa 2021, 142). Nach jetzigem Kenntnisstand ist es auch so, dass die Implementierung ein vertieftes Verständnis fördern würde, wie die einzelnen Aufgaben die vom Framework adressiert werden, miteinander zusammenhängen. Wenn man eine Sammlung Algorithmen hat, die das Gleiche bewerkstelligen, ist es dennoch so, dass sich diese in ihrer Vorgehensweise hinsichtlich “Nachvollziehbarkeit” für den Menschen unterscheiden können. Tikka et al.&nbsp;(2017, 9) haben einen Algorithmus von Shpitser &amp; Pearl (2006) implementiert. In einem kleinen Software-Projekt (https://shuesler.github.io/idalgo/) war ich bestrebt, die Vorgehensweise des Algorithmus mittels interaktiver Grafik zu visualisieren. Wie sich herausstellte half diese Visualisierung nicht gross dem Verständnis, weil die Bausteine des Algorithmus in Form von graphtheoretischen Kriterien zu komplex waren, um diese zu verstehen. Die Algorithmen in Correa (2021) versprechen da eine höhere Nachvollziehbarkeit, da diese alle mittels einem “graphischen Mapping” zwischen Queries und Datenverteilungen-Inputs funktionieren.</p>
+<p>Die Verbindung zu meinem Masterarbeitsthema ergibt sich konkret dadurch, dass ich der Analyse und Implementierung der Algorithmen rund um das Thema des Selection-Bias (Correa 2021, Kapitel 6) die höchste Priorität und Anforderung bezüglich Klarheit zuteilen würde.</p>
+<p>Wie würde sich die Software-Implementierung von anderen Software-Paketen unterscheiden? (Beispielsweise: Bareinboim &amp; Pearl 2016, Tikka et al.&nbsp;2017, Tikka et al.&nbsp;2021) Da die Implementierung im Kontext der Survey Methodology entsteht, wäre es angezeigt, Queries ohne “do-Expressions” (das ist die Konstellation, wenn sich das Erkenntnisinteresse auf Korrelationen beschränkt) eine prominentere Bedeutung einzuräumen. Bei der Software von Bareinboim (https://causalfusion.net/, Bareinboim &amp; Pearl 2016) werden diese Queries gar nicht unterstützt. Bei Tikka et al.&nbsp;(2021) scheint dies der Fall zu sein, doch bis zu welchem Grad, wird aus der Dokumentation nicht ersichtlich. Erschwerend kommt beim Softwarepaket von Tikka et al.&nbsp;(2021) hinzu, dass die Algorithmen in C++ implementiert sind. Forschenden aus dem Umfeld der Survey Methodology dürfte diese Programmiersprache schwieriger zugänglich sein als R. Dies bedeutet, dass die genaue Vorgehensweise der Software Forschenden aus der Survey Methodology verborgen bleibt. Des Weiteren hatte das Projekt auch noch keinen Zugriff auf die vereinfachten und kohärenten Algorithmen aus Correa (2021).</p>
+<p>Es gilt festzuhalten, dass ich mich bis jetzt nur mit der Machbarkeit der Implementierung auseinandergesetzt habe. Aktuell ist noch nichts implementiert. Auch sei nochmals darauf hingewiesen, dass mit der Implementierung kein praktisches Problem gelöst würde. Output der Algorithmen sind “nicht-parametrische” Ausdrücke als Funktionen der Input-Verteilungen. Praktische Relevanz ergäbe sich daraus erst, wenn basierend auf den Ausdrücken statistische Schätzstrategien mit wünschenswerten Eigenschaften entwickelt würden.</p>
+<p>Klarzustellen gilt es, dass das übergeordnete Ziel meiner Masterarbeit nicht lediglich darin besteht, das CDS-FW bei Soziologen oder Personen aus der Survey Methodology bekannt zu machen. Vielmehr besteht es darin, dahingehend Anreize zu schaffen, dass der angesprochene Personenkreis ihre Expertise zur Erforschung des Frameworks hineinsteckt um gemeinsam herausfinden zu können, ob das Framework für die (theoretische) Survey Methodology den Status eines neuen Paradigmas erreichen kann.</p>
+<p>Darf ich Sie fragen, was Sie von dem Vorhaben der Implementierung halten?</p>
+<p>Vielen Dank und freundliche Grüsse</p>
+<p>Silvan Hüsler</p>
+<hr>
+<p><strong>Bareinboim, Elias 2022.</strong> "Causal Data Science: A general framework for causal inference and fusion (through computational lenses)," which was part of the First International Workshop on Interactive Causal Learning on June 2nd. Online: https://youtu.be/6lWB_JmWY8g?si=gCzuqdJXYAHi9Y56 [07.09.2023].</p>
+<p><strong>Bareinboim, E. &amp; Pearl, J. 2016.</strong> Causal Inference and The Data-Fusion Problem, in Shiffrin, R. M. (Hg.): <em>Proceedings of the National Academy of Sciences</em>: National Academy of Sciences, 7345–7352.</p>
+<p><strong>Cinelli, Carlos, Forney, Andrew &amp; Pearl, Judea 2022.</strong> A Crash Course in Good and Bad Controls. <em>Sociological Methods &amp; Research</em>, 00491241221099552. Online im Internet: URL: https://doi.org/10.1177/00491241221099552.</p>
+<p><strong>Correa, Juan D. 2022.</strong> "Generalization of Causal and Statistical Quantities under Transportability and Selection Bias". Online:</p>
+<p>https://youtu.be/TYYf7809reI?si=KesKhfbVe_vX97KW [07.09.2023].</p>
+<p><strong>Correa, Juan D. 2021.</strong> A Computational Perspective of Causal Inference and the Data Fusion Problem<em>.</em> Doctoral Thesis. Columbia University.</p>
+<p><strong>Hünermund, Paul &amp; Bareinboim, Elias 2023.</strong> Causal inference and data fusion in econometrics. <em>The Econometrics Journal</em> 112(4)), 3.</p>
+<p><strong>Imbens, Guido W. 2020.</strong> Potential Outcome and Directed Acyclic Graph Approaches to Causality: Relevance for Empirical Practice in Economics. <em>Journal of Economic Literature</em> 58(4), 1129–1179.</p>
+<p><strong>Kohler, Ulrich, Class, Fabian &amp; Sawert, Tim 2023.</strong> Control variable selection in applied quantitative sociology: A critical review. <em>European Sociological Review</em> 51, S139.</p>
+<p><strong>Pearl, Judea &amp; Mackenzie, Dana 2018</strong><em>. The book of why: The new science of cause and effect.</em> First trade paperback edition. New York: Basic Books.</p>
+<p><strong>Pearl, Judea 2017.</strong> A Linear “Microscope” for Interventions and Counterfactuals. <em>Journal of Causal Inference</em> 5(1), 1-15.</p>
+<p><strong>Pearl, Judea 2013.</strong> Linear Models: A Useful “Microscope” for Causal Analysis. <em>Journal of Causal Inference</em> 1(1), 155–170.</p>
+<p><strong>Peters, Jonas, Janzing, Dominik &amp; Schölkopf, Bernhard 2017<em>.</em></strong> <em>Elements of causal inference: Foundations and learning algorithms</em>. Cambridge, Massachusetts: The MIT Press. (Adaptive computation and machine learning).</p>
+<p><strong>Shpitser, Ilya &amp; Pearl, Judea 2006.</strong> "Identification of Joint Interventional Distributions in Recursive Semi-Markovian Causal Models" In: <em>Proceedings of the Twenty-First National Conference on Artificial Intelligence</em> AAAI Press, Menlo Park, CA, 1219-1226.</p>
+<p><strong>Tikka, Santtu, Hyttinen, Antti &amp; Karvanen, Juha 2021.</strong> Causal Effect Identification from Multiple Incomplete Data Sources: A General Search-Based Approach. <em>J. Stat. Soft.</em> 99(5), 1–40. Online im Internet: URL: https://www.jstatsoft.org/index.php/jss/article/view/v099i05.</p>
+<p><strong>Tikka, Santtu &amp; Karvanen, Juha 2017.</strong> Identifying Causal Effects with the R Package causaleffect. <em>J. Stat. Soft.</em> 76(12), 1–30.</p>
+<p><strong>van der Laan, Mark J. &amp; Rose, Sherri 2011<em>. </em></strong><em>Targeted Learning: Causal Inference for Observational and Experimental Data</em>. New York, NY: Springer New York. (Springer Series in Statistics).</p>
+<p><strong>Vogel, Raphael 2019<em>.</em></strong> <em>Survey-Welten</em>. Wiesbaden: Springer Fachmedien Wiesbaden.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopiert");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>
