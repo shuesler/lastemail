@@ -7,6 +7,9 @@ format:
     toc: false
 ---
 
+
+Take me to [pookie](#pookie)
+
 Sehr geehrter Herr Prof. Diaz-Bone,
 
 Vielen Dank für Ihre Email. Bitte entschuldigen Sie meine lange Antwortzeit. Bedauerlicherweise überprüfe ich den Email-Account nur sehr sporadisch. Leider muss ich Sie erneut um eine Ausweitung der Bearbeitungszeit für die Masterarbeit bis zum 30. April 2024 bitten. Im Weiteren erlaube ich mir hier ein kleines Update zu geben:
@@ -68,7 +71,7 @@ Beispielsweise investierte ich eine Unmenge an Zeit, um ein mit dem CDS-FW verwa
 
 Jüngst beschäftigte ich mich mit der Herangehensweise an Kausalität, wie sie von Personen rund um Bernhard Schölkopf vom Max-Planck-Institut in Tübingen gehandhabt wird. Von diesem Personenkreis ging auch eine Monographie zum Thema Kausalität hervor: Peters et al. (2017). Auch beim Studium dieser Monografie stiess ich bald an meine Verständnisgrenzen.
 
-Als nächstes gilt es festzuhalten, warum ich dennoch davon überzeugt bin, dass das CDS-FW für mein Thema, der Optimierung des Telefonlabors, einen sehr wichtigen Beitrag leisten kann. Mein Thema fällt in den Forschungsbereich des “Selection-Bias”. Dieser wurde vom CDS-FW bereits formalisiert (siehe Bild 2). Bei einer Optimierung werden immer Aufwand und Ertrag ins Verhältnis gesetzt. Über den Ertrag gibt es innerhalb meiner Arbeit sehr viel zu sagen, ist doch damit auch die Diskussion über Surveyqualität damit verbunden. Hier interessiert jedoch der Aufwand: Unstrittig ist, dass dieser in monetären Einheiten gemessen wird. Das CDS-FW lässt einem jedoch ein sehr relevantes Austauschverhältnis sichtbar machen: **Monetäre Einheiten und Annahmen, bzw. Wissen über datengenerierende Prozesse stehen in einem Austauschverhältnis**. Warum gerade das CDS-FW dies sichtbar machen lässt, dürfte nicht schwer zu erkennen sein: Nehmen doch Annahmen, bzw. Wissen über datengenerierende Prozesse, welche man in Form von Dags (Directed acyclic graphs, siehe dazu Bild 3) formuliert, einen prominenten Stellenwert im Framework ein.
+Als nächstes gilt es festzuhalten, warum ich dennoch davon überzeugt bin, dass das CDS-FW für mein Thema, der Optimierung des Telefonlabors, einen sehr wichtigen Beitrag leisten kann. Mein Thema fällt in den Forschungsbereich des “Selection-Bias”. Dieser wurde vom CDS-FW bereits formalisiert (siehe Bild 2). Bei einer Optimierung werden immer Aufwand und Ertrag ins Verhältnis gesetzt. Über den Ertrag gibt es innerhalb meiner Arbeit sehr viel zu sagen, ist doch damit auch die Diskussion über Surveyqualität damit verbunden. Hier interessiert jedoch der Aufwand: Unstrittig ist, dass dieser in monetären Einheiten gemessen wird. Das CDS-FW lässt einem jedoch ein sehr relevantes Austauschverhältnis sichtbar machen: <a name="pookie"></a>  **Monetäre Einheiten und Annahmen, bzw. Wissen über datengenerierende Prozesse stehen in einem Austauschverhältnis**. Warum gerade das CDS-FW dies sichtbar machen lässt, dürfte nicht schwer zu erkennen sein: Nehmen doch Annahmen, bzw. Wissen über datengenerierende Prozesse, welche man in Form von Dags (Directed acyclic graphs, siehe dazu Bild 3) formuliert, einen prominenten Stellenwert im Framework ein.
 
 Um dies zu illustrieren sei gesagt, dass man mit dem CDS-FW im Extremfall ganz auf experimentelle Regimes in der Realität verzichten kann, vorausgesetzt man ist unter Berücksichtigung des “Endzwecks” eines Forschungsprojekts “bereit”, die notwendigen Annahmen über den datengenerierenden Prozess zu treffen. Es gibt bereits Studien, welche die numerische Abweichung der Substitution eines experimentellen Regimes durch das CDS-FW untersuchen (Correa 2022, Minute 58.5 bis 60.5). Klar dürfte sein, dass die “Schliessung der letzten Meile” die Machbarkeit dieses Unterfangen positiv beeinflussen wird.
 
