@@ -7,8 +7,8 @@ format:
     toc: false
 ---
 
+Take me to [pookietest](#pookie)
 
-Take me to [pookie](#pookie)
 
 Sehr geehrter Herr Prof. Diaz-Bone,
 
@@ -16,7 +16,7 @@ Vielen Dank für Ihre Email. Bitte entschuldigen Sie meine lange Antwortzeit. Be
 
 Wie Sie ja von den Kolloquiums-Sitzungen wissen, bin ich (schon fast) obsessiv danach bestrebt, das “Causal Data Science”-Framework (begründet von Judea Pearl, weitergeführt von Elias Bareinboim) der Survey Methodology- bzw. der Soziologie-Community näher zu bringen. Vor diesem Hintergrund freut es mich jeweils besonders, wenn ich sehe, dass sich Soziologen aus dem deutschsprachigen Raum mit demselben Thema beschäftigen. So kann ich von einem Paper namens  “Control variable selection in applied quantitative sociology: a critical review” von Prof. Ulrich Kohler (et al. 2023) der Universität Potsdam berichten. 
 
-Anhand diesem Paper möchte ich ein gewisses Dilemma illustrieren: Worum geht es darin? Die Autoren untersuchen, wie die Berücksichtigung von Kontrollvariablen in einem Regressionsmodell gerechtfertigt wird. Zu diesem Zweck analysieren sie alle Studien des “European Sociological Review” der Jahre 2016 und 2017, in welchen Regressionskoeffizienten interpretiert werden (Kohler et al. 2023, 3). Studien mit methodischem Untersuchungsinteresse oder solche, bei denen die reine Vorhersage im Mittelpunkt steht, fallen also nicht hier rein.
+Anhand diesem Paper möchte ich ein gewisses <span style="color:red;">Dilemma</span> illustrieren: Worum geht es darin? Die Autoren untersuchen, wie die Berücksichtigung von Kontrollvariablen in einem Regressionsmodell gerechtfertigt wird. Zu diesem Zweck analysieren sie alle Studien des “European Sociological Review” der Jahre 2016 und 2017, in welchen Regressionskoeffizienten interpretiert werden (Kohler et al. 2023, 3). Studien mit methodischem Untersuchungsinteresse oder solche, bei denen die reine Vorhersage im Mittelpunkt steht, fallen also nicht hier rein.
 
 Zur Überraschung von Forschenden, welche nicht mit dem “Causal Data Science”-Framework vertraut sind halten sie fest:
 
@@ -30,7 +30,7 @@ the causal model underlying the association stands out”* (ebd., 5).
 
 Mit anderen Worten halten sie fest, dass Autoren in allen von ihnen analysierten Studien (unabhängig davon, ob kausale Effekte oder Korrelationen im Zentrum des Interesses stehen) daran gehalten sind, kausale Überlegungen anzustellen.
 
-Nach meiner Auffassung stellt dies einen Paradigmenwechsel dar. Diese Behauptung lässt sich weiter wie folgt untermauern: Immer mindestens die Hälfte der analysierten Studien (ebd., siehe Tabellen 1, 3 und 4) genügen nicht den drei Kriterien, die basierend auf Konzepten und Terminologie des “Causal Data Science”-Framework abgeleitet wurden (ebd., 2).
+Nach meiner Auffassung stellt dies einen <span style="color:purple;">Paradigmenwechsel</span> dar. Diese Behauptung lässt sich weiter wie folgt untermauern: Immer mindestens die Hälfte der analysierten Studien (ebd., siehe Tabellen 1, 3 und 4) genügen nicht den drei Kriterien, die basierend auf Konzepten und Terminologie des “Causal Data Science”-Framework abgeleitet wurden (ebd., 2).
 
 Bei dem angesprochenen Paper (nachfolgend Kohler-Paper genannt) geht es lediglich um die Frage, wie der Einbezug von Kontrollvariablen in ein lineares Regressionsmodell gerechtfertigt bzw. begründet wird. Das “Causal Data Science”-Framework (in der Folge mit CSD-FW abgekürzt) adressiert jedoch ein sehr weites Spektrum von Problemen, welches bis zum Themenbereich des Reinforcement Learning reicht. Im Kontext der Soziologie und im Besonderen der Survey Methodology sind die Lösungsansätze von Interesse, welches das CSD-FW hinsichtlich Herausforderungen in der “Daten-Produktion” anbietet.
 
@@ -44,7 +44,7 @@ Bareinboim zeigt in Bild 2 nun wie das Werk von in der Geschichte  herausragende
 
 Nun ist ein erstes Resümee angebracht: Ich habe anhand dem Kohler-Paper gezeigt, wie Wissenschaftler zum Schluss kommen können, dass mindestens die Hälfte der von ihnen analysierten Studien des “European Sociological Review” nicht den vom CDS-FW abgeleiteten Bewertungskriterien genügen. Im Weiteren habe ich auf den Relevanzanspruch hingewiesen, der das CDS-FW (mehr oder minder explizit ausgesprochen) für sich proklamiert.
 
-Nun ist die entscheidende Frage, was es mit dem Dilemma auf sich hat, welches ich mit Bezugnahme auf das Kohler-Paper illustrieren wollte?
+Nun ist die entscheidende Frage, was es mit dem <span style="color:red;">Dilemma</span> auf sich hat, welches ich mit Bezugnahme auf das Kohler-Paper illustrieren wollte?
 
 
 
@@ -63,9 +63,9 @@ In diesem letzten Schritt sehe ich das CDS-FW im Gegensatz zu den übrigen Konze
 
 > *“The focus on toy models and the corresponding lack of engagement with estimation and inference questions are in sharp contrast to the econometrics literature where the three steps, (i) the development of the causal models that preceeds the identification question, (ii) the study of identification questions, and (iii) estimation and inference methods that follow once the identification questions have been resolved, typically go hand in hand”* (Imbens 2020, 1134).
 
-Das Dilemma besteht nun darin, dass quasi der letzte Schritt (statistische Schätzung) für die Soziologie und die Survey Methodology unentbehrlich ist. Auf der einen Seite stellt das CDS-FW Formalisierungen für alle relevanten Dimensionen der Daten-Produktion bereit. Auf der anderen Seite  fehlt dem Framework die “letzte Meile” zur empirischen Anwendbarkeit. Hier gibt es jedoch eine Ausnahme: Das Framework liefert alle Instrumente, die man braucht, um zum numerischen Resultat zu kommen, wenn es die Aufgabe vor der Brust erlaubt, als statistische Technik die lineare Regression zu verwenden. Somit wäre auch erklärt, inwiefern es Kohler et al. (2023) möglich war, das CDS-FW für ihre Analyse nützlich zu machen. Zum Thema CDS-FW und lineare Regression, siehe: Cinelli et al. (2020) und Pearl (2013 und 2017).
+Das <span style="color:red;">Dilemma</span> besteht nun darin, dass quasi der letzte Schritt (statistische Schätzung) für die Soziologie und die Survey Methodology unentbehrlich ist. Auf der einen Seite stellt das CDS-FW Formalisierungen für alle relevanten Dimensionen der Daten-Produktion bereit. Auf der anderen Seite  fehlt dem Framework die <span style="color:chocolate;">“letzte Meile”</span> zur empirischen Anwendbarkeit. Hier gibt es jedoch eine Ausnahme: Das Framework liefert alle Instrumente, die man braucht, um zum numerischen Resultat zu kommen, wenn es die Aufgabe vor der Brust erlaubt, als statistische Technik die lineare Regression zu verwenden. Somit wäre auch erklärt, inwiefern es Kohler et al. (2023) möglich war, das CDS-FW für ihre Analyse nützlich zu machen. Zum Thema CDS-FW und lineare Regression, siehe: Cinelli et al. (2020) und Pearl (2013 und 2017).
 
-Hier kommt ein Aspekt erschwerend dazu: Was meine Fähigkeiten angeht, bin ich bei mathemathischen und statistischen Themen sehr schnell überfordert. So wäre ich auch gar nicht in der Lage im Detail zu beurteilen, inwiefern und in welcher Qualität die Lücke der “letzten Meile” geschlossen wurde. Beispielsweise wenn es darum geht, graphtheoretische Algorithmen anzuwenden oder diese in Software zu implementieren, da komme ich noch mit. Danach ist dann bald eine Grenze erreicht.
+Hier kommt ein Aspekt erschwerend dazu: Was meine Fähigkeiten angeht, bin ich bei mathemathischen und statistischen Themen sehr schnell überfordert. So wäre ich auch gar nicht in der Lage im Detail zu beurteilen, inwiefern und in welcher Qualität die Lücke der <span style="color:chocolate;">“letzten Meile”</span> geschlossen wurde. Beispielsweise wenn es darum geht, graphtheoretische Algorithmen anzuwenden oder diese in Software zu implementieren, da komme ich noch mit. Danach ist dann bald eine Grenze erreicht.
 
 Beispielsweise investierte ich eine Unmenge an Zeit, um ein mit dem CDS-FW verwandter (bzw. darauf basierender) Ansatz zu verstehen, der auch die statistische Schätzung integriert. Jedoch war ich da dann schnell überfordert. Es handelte sich um van der Laan & Rose (2011).
 
@@ -73,7 +73,7 @@ Jüngst beschäftigte ich mich mit der Herangehensweise an Kausalität, wie sie 
 
 Als nächstes gilt es festzuhalten, warum ich dennoch davon überzeugt bin, dass das CDS-FW für mein Thema, der Optimierung des Telefonlabors, einen sehr wichtigen Beitrag leisten kann. Mein Thema fällt in den Forschungsbereich des “Selection-Bias”. Dieser wurde vom CDS-FW bereits formalisiert (siehe Bild 2). Bei einer Optimierung werden immer Aufwand und Ertrag ins Verhältnis gesetzt. Über den Ertrag gibt es innerhalb meiner Arbeit sehr viel zu sagen, ist doch damit auch die Diskussion über Surveyqualität damit verbunden. Hier interessiert jedoch der Aufwand: Unstrittig ist, dass dieser in monetären Einheiten gemessen wird. Das CDS-FW lässt einem jedoch ein sehr relevantes Austauschverhältnis sichtbar machen: <a name="pookie"></a>  **Monetäre Einheiten und Annahmen, bzw. Wissen über datengenerierende Prozesse stehen in einem Austauschverhältnis**. Warum gerade das CDS-FW dies sichtbar machen lässt, dürfte nicht schwer zu erkennen sein: Nehmen doch Annahmen, bzw. Wissen über datengenerierende Prozesse, welche man in Form von Dags (Directed acyclic graphs, siehe dazu Bild 3) formuliert, einen prominenten Stellenwert im Framework ein.
 
-Um dies zu illustrieren sei gesagt, dass man mit dem CDS-FW im Extremfall ganz auf experimentelle Regimes in der Realität verzichten kann, vorausgesetzt man ist unter Berücksichtigung des “Endzwecks” eines Forschungsprojekts “bereit”, die notwendigen Annahmen über den datengenerierenden Prozess zu treffen. Es gibt bereits Studien, welche die numerische Abweichung der Substitution eines experimentellen Regimes durch das CDS-FW untersuchen (Correa 2022, Minute 58.5 bis 60.5). Klar dürfte sein, dass die “Schliessung der letzten Meile” die Machbarkeit dieses Unterfangen positiv beeinflussen wird.
+Um dies zu illustrieren sei gesagt, dass man mit dem CDS-FW im Extremfall ganz auf experimentelle Regimes in der Realität verzichten kann, vorausgesetzt man ist unter Berücksichtigung des “Endzwecks” eines Forschungsprojekts “bereit”, die notwendigen Annahmen über den datengenerierenden Prozess zu treffen. Es gibt bereits Studien, welche die numerische Abweichung der Substitution eines experimentellen Regimes durch das CDS-FW untersuchen (Correa 2022, Minute 58.5 bis 60.5). Klar dürfte sein, dass die <span style="color:chocolate;">“Schliessung der letzten Meile”</span> die Machbarkeit dieses Unterfangen positiv beeinflussen wird.
 
 Gerade habe ich beschrieben, inwiefern es möglich ist, monetäre Einheiten durch Annahmen, bzw. Wissen über datengenerierende Prozesse einzutauschen. Betrachtungen in die entgegengesetzte Richtung sind ebenso relevant: Bekanntlich sind experimentelle Regimes im Feld enorm teuer. Die Survey Methodology hat es meiner Meinung nach verpasst, eine Form des Gegenwerts sichtbar zu machen: Die Realisierung eines möglichst zufallsbasierten Samples von befragten Personen, macht gewisse Annahmen oder Erkenntnisse über den datengenerierenden Prozess obsolet.
 
@@ -93,7 +93,7 @@ Wie würde sich die Software-Implementierung von anderen Software-Paketen unters
 
 Es gilt festzuhalten, dass ich mich bis jetzt nur mit der Machbarkeit der Implementierung auseinandergesetzt habe. Aktuell ist noch nichts implementiert. Auch sei nochmals darauf hingewiesen, dass mit der Implementierung kein praktisches Problem gelöst würde. Output der Algorithmen sind “nicht-parametrische” Ausdrücke als Funktionen der Input-Verteilungen. Praktische Relevanz ergäbe sich daraus erst, wenn basierend auf den Ausdrücken statistische Schätzstrategien mit wünschenswerten Eigenschaften entwickelt würden.
 
-Klarzustellen gilt es, dass das übergeordnete Ziel meiner Masterarbeit nicht lediglich darin besteht, das CDS-FW bei Soziologen oder Personen aus der Survey Methodology bekannt zu machen. Vielmehr besteht es darin, dahingehend Anreize zu schaffen, dass der angesprochene Personenkreis ihre Expertise zur Erforschung des Frameworks hineinsteckt um gemeinsam herausfinden zu können, ob das Framework für die (theoretische) Survey Methodology den Status eines neuen Paradigmas erreichen kann.
+Klarzustellen gilt es, dass das übergeordnete Ziel meiner Masterarbeit nicht lediglich darin besteht, das CDS-FW bei Soziologen oder Personen aus der Survey Methodology bekannt zu machen. Vielmehr besteht es darin, dahingehend Anreize zu schaffen, dass der angesprochene Personenkreis ihre Expertise zur Erforschung des Frameworks hineinsteckt um gemeinsam herausfinden zu können, ob das Framework für die (theoretische) Survey Methodology den Status eines neuen <span style="color:purple;">Paradigmas</span> erreichen kann.
 
 Darf ich Sie fragen, was Sie von dem Vorhaben der Implementierung halten?
 
